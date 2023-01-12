@@ -2739,6 +2739,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id immediateStop
 id included
 id inference
@@ -3199,7 +3201,10 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_foreground
+mipmap ic_launcher_math
 mipmap ic_launcher_round
+mipmap ic_launcher_yachay
+mipmap ic_launcher_yachay_big
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

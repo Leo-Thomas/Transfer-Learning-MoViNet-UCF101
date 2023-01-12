@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TFL Video Classification</string>
+    <string name="app_name">YachayTech video classification</string>
     <string name="tfe_tv_frame">Input Size</string>
     <string name="tfe_tv_inference_time">Inference Time</string>
     <string name="tfe_tv_input_fps">Input FPS</string>

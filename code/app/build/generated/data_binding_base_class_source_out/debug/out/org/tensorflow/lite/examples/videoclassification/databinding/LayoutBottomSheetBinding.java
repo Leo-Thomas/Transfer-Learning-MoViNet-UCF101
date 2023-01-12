@@ -35,6 +35,9 @@ public final class LayoutBottomSheetBinding implements ViewBinding {
   public final LinearLayout gestureLayout;
 
   @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
   public final TextView inference;
 
   @NonNull
@@ -88,10 +91,11 @@ public final class LayoutBottomSheetBinding implements ViewBinding {
   private LayoutBottomSheetBinding(@NonNull LinearLayout rootView,
       @NonNull ImageView bottomSheetArrow, @NonNull LinearLayout bottomSheetLayout,
       @NonNull Button btnClearModelState, @NonNull LinearLayout gestureLayout,
-      @NonNull TextView inference, @NonNull TextView inferenceInfo, @NonNull TextView inputFps,
-      @NonNull TextView inputFpsInfo, @NonNull TextView inputSize, @NonNull TextView inputSizeInfo,
-      @NonNull LinearLayout llChangeThreads, @NonNull ImageView minus, @NonNull ImageView plus,
-      @NonNull Spinner spnSelectModel, @NonNull TextView threads, @NonNull TextView tvDetectedItem0,
+      @NonNull ImageView imageView2, @NonNull TextView inference, @NonNull TextView inferenceInfo,
+      @NonNull TextView inputFps, @NonNull TextView inputFpsInfo, @NonNull TextView inputSize,
+      @NonNull TextView inputSizeInfo, @NonNull LinearLayout llChangeThreads,
+      @NonNull ImageView minus, @NonNull ImageView plus, @NonNull Spinner spnSelectModel,
+      @NonNull TextView threads, @NonNull TextView tvDetectedItem0,
       @NonNull TextView tvDetectedItem0Value, @NonNull TextView tvDetectedItem1,
       @NonNull TextView tvDetectedItem1Value, @NonNull TextView tvDetectedItem2,
       @NonNull TextView tvDetectedItem2Value) {
@@ -100,6 +104,7 @@ public final class LayoutBottomSheetBinding implements ViewBinding {
     this.bottomSheetLayout = bottomSheetLayout;
     this.btnClearModelState = btnClearModelState;
     this.gestureLayout = gestureLayout;
+    this.imageView2 = imageView2;
     this.inference = inference;
     this.inferenceInfo = inferenceInfo;
     this.inputFps = inputFps;
@@ -163,6 +168,12 @@ public final class LayoutBottomSheetBinding implements ViewBinding {
       id = R.id.gesture_layout;
       LinearLayout gestureLayout = ViewBindings.findChildViewById(rootView, id);
       if (gestureLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
         break missingId;
       }
 
@@ -269,10 +280,10 @@ public final class LayoutBottomSheetBinding implements ViewBinding {
       }
 
       return new LayoutBottomSheetBinding((LinearLayout) rootView, bottomSheetArrow,
-          bottomSheetLayout, btnClearModelState, gestureLayout, inference, inferenceInfo, inputFps,
-          inputFpsInfo, inputSize, inputSizeInfo, llChangeThreads, minus, plus, spnSelectModel,
-          threads, tvDetectedItem0, tvDetectedItem0Value, tvDetectedItem1, tvDetectedItem1Value,
-          tvDetectedItem2, tvDetectedItem2Value);
+          bottomSheetLayout, btnClearModelState, gestureLayout, imageView2, inference,
+          inferenceInfo, inputFps, inputFpsInfo, inputSize, inputSizeInfo, llChangeThreads, minus,
+          plus, spnSelectModel, threads, tvDetectedItem0, tvDetectedItem0Value, tvDetectedItem1,
+          tvDetectedItem1Value, tvDetectedItem2, tvDetectedItem2Value);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

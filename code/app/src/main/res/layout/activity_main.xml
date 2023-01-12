@@ -9,11 +9,13 @@
 
     <androidx.camera.view.PreviewView
         android:id="@+id/preview"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintDimensionRatio="1:1"
-        app:scaleType="fillCenter" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:scaleType="fillCenter"
+        tools:layout_editor_absoluteX="33dp">
+    </androidx.camera.view.PreviewView>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -23,7 +25,11 @@
         <include
             android:id="@+id/bottomSheet"
             layout="@layout/layout_bottom_sheet" />
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/ic_launcher_yachay_big" />
 </androidx.constraintlayout.widget.ConstraintLayout>

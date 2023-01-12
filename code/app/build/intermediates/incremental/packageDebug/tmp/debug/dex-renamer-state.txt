@@ -1,14 +1,14 @@
-#Mon Dec 05 18:07:53 COT 2022
+#Thu Jan 12 13:02:30 ECT 2023
 path.4=9/classes.dex
 path.3=5/classes.dex
 path.2=14/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=E\:\\10mo semestre\\CV\\midterm\\Video-Classification-Computer-Vision-Midterm\\code\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.3=E\:\\10mo semestre\\CV\\midterm\\Video-Classification-Computer-Vision-Midterm\\code\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.2=E\:\\10mo semestre\\CV\\midterm\\Video-Classification-Computer-Vision-Midterm\\code\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.1=E\:\\10mo semestre\\CV\\midterm\\Video-Classification-Computer-Vision-Midterm\\code\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=E\:\\10mo semestre\\CV\\midterm\\Video-Classification-Computer-Vision-Midterm\\code\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=/home/jean/Documents/GitHub/Video-Classification-Computer-Vision-Midterm/code/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.3=/home/jean/Documents/GitHub/Video-Classification-Computer-Vision-Midterm/code/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.2=/home/jean/Documents/GitHub/Video-Classification-Computer-Vision-Midterm/code/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.1=/home/jean/Documents/GitHub/Video-Classification-Computer-Vision-Midterm/code/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/jean/Documents/GitHub/Video-Classification-Computer-Vision-Midterm/code/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

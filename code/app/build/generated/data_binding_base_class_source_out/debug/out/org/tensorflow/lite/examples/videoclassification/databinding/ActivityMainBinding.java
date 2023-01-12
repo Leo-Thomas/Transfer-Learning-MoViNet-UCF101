@@ -4,6 +4,7 @@ package org.tensorflow.lite.examples.videoclassification.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.camera.view.PreviewView;
@@ -23,12 +24,17 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LayoutBottomSheetBinding bottomSheet;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
   public final PreviewView preview;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LayoutBottomSheetBinding bottomSheet, @NonNull PreviewView preview) {
+      @NonNull LayoutBottomSheetBinding bottomSheet, @NonNull ImageView imageView,
+      @NonNull PreviewView preview) {
     this.rootView = rootView;
     this.bottomSheet = bottomSheet;
+    this.imageView = imageView;
     this.preview = preview;
   }
 
@@ -66,13 +72,20 @@ public final class ActivityMainBinding implements ViewBinding {
       }
       LayoutBottomSheetBinding binding_bottomSheet = LayoutBottomSheetBinding.bind(bottomSheet);
 
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
       id = R.id.preview;
       PreviewView preview = ViewBindings.findChildViewById(rootView, id);
       if (preview == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, binding_bottomSheet, preview);
+      return new ActivityMainBinding((ConstraintLayout) rootView, binding_bottomSheet, imageView,
+          preview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
