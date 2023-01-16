@@ -445,15 +445,8 @@ Leo Ramos - [LinkedIn](https://www.linkedin.com/in/leo-thomas-ramos/) - leo.ramo
 <br>
 <br>
 
-Project Link: [https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101](https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101)
+Project link: [https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101](https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[stars-shield]: https://img.shields.io/github/stars/Leo-Thomas/AI-based-red-rose-counting-webapp.svg?style=for-the-badge
-[stars-url]: https://github.com/Leo-Thomas/AI-based-red-rose-counting-webapp/stargazers
-[issues-shield]:https://img.shields.io/github/issues/Leo-Thomas/AI-based-red-rose-counting-webapp.svg?style=for-the-badge
-[issues-url]:https://github.com/Leo-Thomas/AI-based-red-rose-counting-webapp/issues
-[license-shield]: https://img.shields.io/github/license/Leo-Thomas/AI-based-red-rose-counting-webapp.svg?style=for-the-badge
-[license-url]: https://github.com/Leo-Thomas/AI-based-red-rose-counting-webapp/blob/main/LICENSE
-[product-screenshot]: Images/product.png
 
