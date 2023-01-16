@@ -399,7 +399,7 @@ Average results obtained from the validation data set
 || Loss          | Top-1  | Top-5 |
 | ------------- | ------------- | ------------- |  ------------- |
 |MoViNet-A0     | 1.8260 | 0.7077 | 0.9147 |
-|MoViNet-A1     | 1.6596 | 0.7594 | 0.9449 |
+|MoViNet-A1     | **1.6596** | **0.7594** | **0.9449** |
 |MoViNet-A2     | 1.7959 | 0.7398 | 0.9326 |
 
 Results during the epochs (5) trained, validation data set
