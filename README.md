@@ -402,9 +402,9 @@ Average results obtained from the validation data set
 
 Results during the epochs (5) trained, validation data set
 
-<img src="images/1.png" alt="Logo" width="250" height="200">
-<img src="images/2.png" alt="Logo" width="250" height="200">
-<img src="images/3.png" alt="Logo" width="250" height="200">
+<img src="images/a.png" alt="Logo" width="250" height="200">
+<img src="images/b.png" alt="Logo" width="250" height="200">
+<img src="images/c.png" alt="Logo" width="250" height="200">
 
 <!-- CONTRIBUTING -->
 ## Contributing
