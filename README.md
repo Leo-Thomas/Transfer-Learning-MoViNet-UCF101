@@ -8,6 +8,7 @@
     </li>
     <li><a href="#usage">Usage</a>
     </li>
+    <li><a href="#results">Results</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -389,6 +390,21 @@ plot_confusion_matrix(actual, predicted, label_names, 'test')
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Results
+
+Average results obtained from the validation data set
+
+|| Loss          | Top-1  | Top-5 |
+| ------------- | ------------- | ------------- |  ------------- |
+|MoViNet-A0     | 1.8260 | 0.7077 | 0.9147 |
+|MoViNet-A1     | 1.6596 | 0.7594 | 0.9449 |
+|MoViNet-A2     | 1.7959 | 0.7398 | 0.9326 |
+
+Results during the epochs (5) trained, validation data set
+
+<img src="images/1.png" alt="Logo" width="250" height="200">
+<img src="images/2.png" alt="Logo" width="250" height="200">
+<img src="images/3.png" alt="Logo" width="250" height="200">
 
 <!-- CONTRIBUTING -->
 ## Contributing
