@@ -42,7 +42,9 @@ pip install git+https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101.g
 
 ### Install necessary libraries and dependencies
 
-```!pip install remotezip tqdm opencv-python==4.5.2.52 opencv-python-headless==4.5.2.52 tf-models-official`
+```python
+!pip install remotezip tqdm opencv-python==4.5.2.52 opencv-python-headless==4.5.2.52 tf-models-official
+```
 ```python
 import os
 
