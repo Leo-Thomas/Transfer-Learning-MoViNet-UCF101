@@ -53,10 +53,10 @@ class MainActivity : AppCompatActivity() {
         private const val TAG = "TFLite-VidClassify"
         private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
         private const val MAX_RESULT = 3
-        private const val MODEL_MOVINET_A0_FILE = "movinet_a0_stream_int8.tflite"
-        private const val MODEL_MOVINET_A1_FILE = "movinet_a1_stream_int8.tflite"
-        private const val MODEL_MOVINET_A2_FILE = "movinet_a2_stream_int8.tflite"
-        private const val MODEL_LABEL_FILE = "kinetics600_label_map.txt"
+        private const val MODEL_MOVINET_A0_FILE = "movinet_a0_stream.tflite"
+        private const val MODEL_MOVINET_A1_FILE = "movinet_a1_stream.tflite"
+        private const val MODEL_MOVINET_A2_FILE = "movinet_a1_stream.tflite"
+        private const val MODEL_LABEL_FILE = "ufc101_label_map.txt"
         private const val MODEL_FPS = 5 // Ensure the input images are fed to the model at this fps.
         private const val MODEL_FPS_ERROR_RANGE = 0.1 // Acceptable error range in fps.
         private const val MAX_CAPTURE_FPS = 20
