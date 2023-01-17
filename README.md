@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project focuses on applying transfer learning to fine-tune the MoViNet architecture in the UFC101 data set. We also provide the necessary code to convert the models to TFLite format and be able to use them on Andriod mobile phones.
+This project focuses on applying transfer learning to fine-tune the MoViNet architecture in the [UFC101](https://www.crcv.ucf.edu/data/UCF101.php) data set. We also provide the necessary code to convert the models to TFLite format and be able to use them on Andriod mobile phones.
 
 This project was developed by Mike Bermeo, Jean Camacho, and Leo Ramos students at [Yachay Tech University](https://www.yachaytech.edu.ec/en/).
 
@@ -452,6 +452,33 @@ Leo Ramos - [LinkedIn](https://www.linkedin.com/in/leo-thomas-ramos/) - leo.ramo
 <br>
 
 Project link: [https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101](https://github.com/Leo-Thomas/Transfer-Learning-MoViNet-UCF101)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Acknowledgements
+
+This work is based on the original MoViNet [paper](https://ieeexplore.ieee.org/document/9578260), you can cite that paper as follows:
+
+```python
+@article{kondratyuk2021movinets,
+  title={MoViNets: Mobile Video Networks for Efficient Video Recognition},
+  author={Dan Kondratyuk, Liangzhe Yuan, Yandong Li, Li Zhang, Matthew Brown, and Boqing Gong},
+  journal={arXiv preprint arXiv:2103.11511},
+  year={2021}
+}
+```
+
+Likewise, you read the UFC101 data set [paper](https://www.crcv.ucf.edu/papers/UCF101_CRCV-TR-12-01.pdf), and cite it as follows:
+
+```python
+@article{DBLP:journals/corr/abs-1212-0402,
+  author    = {Khurram Soomro and Amir Roshan Zamir and Mubarak Shah},
+  title     = {{UCF101:} {A} Dataset of 101 Human Actions Classes From Videos in The Wild},
+  journal   = {CoRR},
+  year      = {2012}
+}
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
