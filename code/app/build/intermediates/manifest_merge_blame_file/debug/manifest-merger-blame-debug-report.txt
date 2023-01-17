@@ -33,64 +33,63 @@
 21-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:12:9-55
 22        android:supportsRtl="true"
 22-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.VideoClassification" >
-24-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:14:9-57
-25        <activity
-25-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:15:9-23:20
-26            android:name="org.tensorflow.lite.examples.videoclassification.MainActivity"
-26-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:16:13-41
-27            android:exported="true" >
-27-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:17:13-36
-28            <intent-filter>
-28-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:19:17-69
-29-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:21:17-77
-31-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <service
-35-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
-36            android:name="androidx.camera.core.impl.MetadataHolderService"
-36-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
-37            android:enabled="false"
-37-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
-38            android:exported="false" >
-38-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
-39            <meta-data
-39-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
-40                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-40-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
-41                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-41-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
-42        </service>
-43
-44        <provider
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-46            android:authorities="org.tensorflow.lite.examples.videoclassification.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-48            <meta-data
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-54        </provider>
-55    </application>
-56
-57</manifest>
+23        android:theme="@style/Theme.VideoClassification" >
+23-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:14:9-57
+24        <activity
+24-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="org.tensorflow.lite.examples.videoclassification.MainActivity"
+25-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="true" >
+26-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:19:17-69
+28-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:21:17-77
+30-->E:\10mo semestre\CV\midterm\Video-Classification-Computer-Vision-Midterm\code\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:26:9-35:19
+35            android:name="androidx.camera.core.impl.MetadataHolderService"
+35-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:27:13-75
+36            android:enabled="false"
+36-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:28:13-36
+37            android:exported="false" >
+37-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:32:13-34:89
+39                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+39-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:33:17-103
+40                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+40-->[androidx.camera:camera-camera2:1.1.0-beta01] C:\Users\mikeb\.gradle\caches\transforms-3\3b8d8d11ece7991e59d20741b1baacda\transformed\jetified-camera-camera2-1.1.0-beta01\AndroidManifest.xml:34:17-86
+41        </service>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="org.tensorflow.lite.examples.videoclassification.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mikeb\.gradle\caches\transforms-3\b03d1662a911a626467c9cd19ec05e07\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mikeb\.gradle\caches\transforms-3\a880f0062f51687c4ff706ee1c6bbebb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>
