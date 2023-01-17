@@ -22,6 +22,10 @@ This project focuses on applying transfer learning to fine-tune the MoViNet arch
 
 This project was developed by Mike Bermeo, Jean Camacho, and Leo Ramos students at [Yachay Tech University](https://www.yachaytech.edu.ec/en/).
 
+### APK
+
+You can download and install the [apk](code/app/build/outputs/apk/debug/video_clasification_ucf101.apk) to test our models in your movile phones.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
